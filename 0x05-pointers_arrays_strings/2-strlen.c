@@ -1,18 +1,18 @@
+#include<stdio.h>
 #include "main.h"
-#include <stdio.h>
 /**
- *_puts - prints a string, to stdout
- *@str: value to be evaluate.
- *Return: not.
- */
-void _puts(char *str)
+*_strlen - returns the length of a string..
+*@s: value to be evaluate.
+*Return: not.
+*/
+int _strlen(char *s)
 {
-	int l = 0;
+	int len = 0;
 
-	while (*(str + l) != '\0')
+	while (*s != '\0')
 	{
-		_putchar(str[l]);
-		l++;
+		s++;
+		len++;
 	}
-	_putchar('\n');
+	return (len);
 }

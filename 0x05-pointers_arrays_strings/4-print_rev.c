@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - toma la cadena de la funcion.
- * s: value taken from main
+ * @s: value taken from main
  * Return: (0)
  */
 void print_rev(char *s)
