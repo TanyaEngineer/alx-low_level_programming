@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "mainn.c"
 #include <stdio.h>
 /**
  *  _pow_recursion - calculates value of x raised to the power of y
