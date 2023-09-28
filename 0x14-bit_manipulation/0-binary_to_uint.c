@@ -1,4 +1,4 @@
-include "main.h"
+#include "holberton.h"
 /**
   * _stoi - converts chars to ints
   * @c: char to convert
@@ -44,3 +44,4 @@ unsigned int binary_to_uint(const char *b)
 	}
 	return (result);
 }
+
